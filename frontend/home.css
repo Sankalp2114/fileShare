@@ -1,0 +1,130 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #141414;
+}
+
+.top-bar {
+  background-color: #141414;
+  color: #fff;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #404040;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.contact-button {
+  font-weight: 600;
+  background-color: #fff;
+  color: #141414;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  height: 80vh;
+}
+
+.upload-box {
+  aspect-ratio: 21/11;
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  margin-top: 3rem;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  border: 2px dashed #404040;
+  margin-bottom: 20px; /* Added margin to separate from the button */
+}
+
+.upload-box img {
+  width: 72px;
+}
+
+.upload-box p {
+  font-size: 1.75rem;
+  margin: 0;
+  color: #E9E9E9;
+}
+
+.upload-box .light-text {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.30);
+}
+
+.upload-box .max {
+  font-size: 0.8rem;
+  margin-top: 4rem; /* Move the text to the bottom */
+}
+
+
+
+#uploadButton {
+  background-color: #428cfc;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#uploadButton:hover {
+  background-color: #0056b3;
+}
+input[type=file] {
+  width: 350px;
+  max-width: 100%;
+  color: #444;
+  padding: 5px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #555;
+}
+
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #428cfc;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: #0d45a5;
+}
+form{
+  height: auto;
+  width:auto;
+}
+#home{
+  border-bottom: 2px solid #e9e9e9;
+}

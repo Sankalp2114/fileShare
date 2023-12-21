@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="home.css">
+  <title>fileShare - Home</title>
+</head>
+<body>
+
+  <div class="top-bar">
+    <div class="logo">fileShare</div>
+    <div class="menu">
+      <a href="home.html" id="home">Home</a>
+      <a href="uploadedFiles.html">Uploaded Files</a>
+      <a href="received.html">Received Files</a>
+    </div>
+    <button class="contact-button">Contact Dev</button>
+  </div>
+
+  
+  <main>
+    <label for="fileInput" class="upload-box" id="dropcontainer">
+      <img src="upload-cloud.png" alt="Cloud Icon" class="cloud-img">
+      <p>Click Anywhere</p>
+      <p class="light-text">to select files from your device</p>
+      <p class="light-text max">Max 50MB</p>
+      <input type="file" id="fileInput" name="files" multiple accept="*/*">
+    </label>
+    <button id="uploadButton">Upload</button>
+  </main>
+  
+
+<script src="home.js"></script>
+</body>
+</html>

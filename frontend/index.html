@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="signup.css">
+  <title>Signup Page</title>
+</head>
+<body>
+  <div class="registered">
+    <p>Sign up successful! Go to the <a href="login.html">Login page</a></p>
+  </div>
+  <div class="usernameExsists">
+    <p>Username already Exists.</a></p>
+  </div>
+  <div class="login-container">
+    <h2>Sign up</h2>
+    <p>Set your username and password</p>
+    <form id="signup-form">
+      <label for="signup-username">Username</label>
+      <input type="text" id="signup-username" name="signup-username" required placeholder="eg:Xyz_1234">
+      
+      <label for="signup-password">Password</label>
+      <input type="password" id="signup-password" name="signup-password" required placeholder="**********">
+      
+      <button type="submit">Signup</button>
+    </form>
+    <p>already have an account? <a href="login.html">log in</a>.</p>
+  </div>
+  
+  <script  src="signup.js"></script>
+</body>
+</html>

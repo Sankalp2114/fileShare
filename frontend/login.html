@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="login.css">
+  <title>Login Page</title>
+</head>
+<body>
+  <div class="invalid">
+    <p>Username or Password is incorrect! Try Again</p>
+  </div>
+  <div class="login-container">
+    <h2>Log in</h2>
+    <p>Enter your username and password</p>
+    <form id="login-form">
+      <label for="login-username">Username</label>
+      <input type="text" id="login-username" name="login-username" required placeholder="eg:Xyz_1234">
+      
+      <label for="login-password">Password</label>
+      <input type="password" id="login-password" name="loginpassword" required placeholder="**********">
+      
+      <button type="submit">Login</button>
+    </form>
+    <p>If you don't have an account, <a href="index.html">sign up</a>.</p>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>
