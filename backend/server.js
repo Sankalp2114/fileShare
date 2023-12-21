@@ -87,7 +87,7 @@ app.post('/signup', async (req, res) => {
   try {
     const alreadyuser = await User.findOne({username});
     
-  if(username == alreadyuser.username){
+  if(alreadyuser && username === alreadyuser.username){
     return res.status(400).json({
       message: 'User Already Exists'
     });
