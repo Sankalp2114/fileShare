@@ -29,7 +29,7 @@ app.use(cors());
 
 app.use(express.static(path.join(__dirname, 'frontend')));
 app.options('*', cors());
-
+//Name of the folder where you want to save the uploaded files
 const uploadFolder = './files';
 
 app.post("/upload", upload.array("files"), async (req, res) => {
