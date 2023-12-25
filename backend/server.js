@@ -73,7 +73,7 @@ app.post("/upload", upload.array("files"), async (req, res) => {
 });
 
 
-//Important
+//Important: Enter your mongodb details here
 mongoose.connect('mongodb+srv://YourDetailsHere.x1bfsss.mongodb.net/', {
  
 });
